@@ -127,4 +127,11 @@ class linkedListNumbers
         System.out.println("Modified Linked List"); 
         llist.printList(); 
     } 
+	
+	@Test  
+    public void linkedListNumbersTest(){  
+	 linkedListNumbers llist = new linkedListNumbers(); 
+	 assertEquals('1->3->5->2->4->NULL',llist.segregateEvenOdd());  
+       
+    }  
 } 
